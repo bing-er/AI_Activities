@@ -115,6 +115,28 @@ Highlights:
 
 ---
 
+## 🌸 Activity VI – Transfer Learning with Pretrained CNNs (Colab)
+
+**Dataset:** Animals-10 subset (~1,000 images; 5 classes: cat, cow, dog, horse, sheep)  
+**Focus:** Transfer Learning & Fine-Tuning Strategies  
+
+Key implementations:
+- Compared ResNet50 and EfficientNetB0 pretrained on ImageNet
+- Implemented feature extraction (frozen backbone + custom classifier head)
+- Implemented fine-tuning (unfreezing last 20 layers)
+- Applied differential learning rates (1e-3 → 1e-5)
+- Built classification head: GAP → Dropout → Dense → Softmax
+- Generated confusion matrices and classification reports
+- Designed strategy comparison framework
+
+Highlights:
+- Small dataset scenario (~200 images per class)
+- Demonstrated why transfer learning outperforms training from scratch
+- EfficientNetB0 Fine-Tuning achieved best test accuracy: **95.7%**
+- Built decision framework for selecting transfer learning strategies
+  
+---
+
 # 🧠 Technical Themes Across Activities
 
 - From-scratch implementations (gradient descent, NN forward pass)
