@@ -137,6 +137,33 @@ Highlights:
   
 ---
 
+## 🧠 Activity IX – NLP Sentiment Analysis with Transformers (DistilBERT)
+
+**Dataset:** IMDB Movie Reviews (~5K subset; binary sentiment: positive / negative)  
+**Focus:** Natural Language Processing with Transformers, Tokenization, and Fine-Tuning
+
+### Key implementations:
+
+- Loaded and explored the IMDB dataset using the Hugging Face `datasets` library  
+- Applied **DistilBERT tokenizer** to perform subword tokenization and generate input tensors  
+- Demonstrated **padding, truncation, and attention masks** for transformer inputs  
+- Used Hugging Face **pipeline API** for zero-shot sentiment inference  
+- Extracted **[CLS] embeddings** from DistilBERT to represent entire reviews  
+- Visualized embedding structure using **t-SNE dimensionality reduction**  
+- Implemented **attention visualization** to inspect how the model focuses on sentiment-bearing words  
+- Built a **PyTorch fine-tuning pipeline** for DistilBERT sequence classification  
+- Evaluated model performance using **accuracy, F1 score, confusion matrix, and classification reports**
+
+### Highlights:
+
+- Explored the **Hugging Face ecosystem** (tokenizers, datasets, transformers, pipelines)  
+- Demonstrated how **subword tokenization handles unseen vocabulary**  
+- Showed that **pretrained transformers capture semantic relationships even before fine-tuning**  
+- Visualized how attention weights emphasize sentiment-bearing words (e.g., *superb*, *boring*)  
+- Built an end-to-end **transformer fine-tuning workflow using PyTorch and GPU acceleration**
+
+---
+
 # 🧠 Technical Themes Across Activities
 
 - From-scratch implementations (gradient descent, NN forward pass)
