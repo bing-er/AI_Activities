@@ -39,3 +39,5 @@ activity-II/creditcard.csv
 .venv/
 activity-IV/.venv/
 activity-II/creditcard.csv
+
+*.pt
